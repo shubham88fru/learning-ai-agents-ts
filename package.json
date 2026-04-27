@@ -1,0 +1,12 @@
+{
+  "name": "learning-ai-agents-ts",
+  "version": "1.0.0",
+  "description": "- Learning to build AI Agents with OpenAI's TypeScript SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shubham Singh",
+  "license": "ISC"
+}
