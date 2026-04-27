@@ -3,10 +3,16 @@
   "version": "1.0.0",
   "description": "- Learning to build AI Agents with OpenAI's TypeScript SDK",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch index.js"
   },
   "keywords": [],
   "author": "Shubham Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@openai/agents": "^0.8.5",
+    "dotenv": "^17.4.2",
+    "zod": "^4.3.6"
+  }
 }
